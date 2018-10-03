@@ -17,7 +17,7 @@ int main() {
     assert( s >= 0 );
     assert( p%2 == 0 );
 
-    if ( (q > r) && (s > p) ) {
+    if ( (q > r) && (s > p) && ( r + s > p + q ) ) {
         printf("Correct values!\n");
     } else {
         printf("Wrong values!\n");
