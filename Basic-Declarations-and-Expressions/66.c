@@ -7,7 +7,7 @@ int main() {
     srand(2321);
 
     FILE *outputfile;
-    outputfile = fopen("out.txt", "w");
+    outputfile = fopen("rand.dat", "w");
     if (outputfile == NULL) {
         printf("cannot open\n");
         exit(1);
