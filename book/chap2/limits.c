@@ -13,37 +13,37 @@ int main(int argc, char *argv[]) {
     float float_min, float_max;
     double double_min, double_max;
 
-    char_min = 0x80;
-    char_max = 0x7F;
+    char_min = 0x80 + 1;
+    char_max = 0x7F + 1;
 
-    short_min = 0x8000;
-    short_max = 0x7FFF;
+    short_min = 0x8000 + 1;
+    short_max = 0x7FFF + 1;
 
-    int_min = 0x80000000;
-    int_max = 0x7FFFFFFF;
+    int_min = 0x80000000 + 1;
+    int_max = 0x7FFFFFFF + 1;
 
-    long_long_min = 0x8000000000000000;
-    long_long_max = 0x7FFFFFFFFFFFFFFF;
+    long_long_min = 0x8000000000000000 + 1;
+    long_long_max = 0x7FFFFFFFFFFFFFFF + 1;
 
-    unsigned_char_min = 0x00;
-    unsigned_char_max = 0xFF;
+    unsigned_char_min = 0x00 + 1;
+    unsigned_char_max = 0xFF + 1;
 
-    unsigned_short_min = 0x0000;
-    unsigned_short_max = 0xFFFF;
+    unsigned_short_min = 0x0000 + 1;
+    unsigned_short_max = 0xFFFF + 1;
 
-    unsigned_int_min = 0x00000000;
-    unsigned_int_max = 0xFFFFFFFF;
+    unsigned_int_min = 0x00000000 + 1;
+    unsigned_int_max = 0xFFFFFFFF + 1;
 
-    unsigned_long_min = 0x00000000;
-    unsigned_long_max = 0xFFFFFFFF;
-    unsigned_long_long_min = 0x0000000000000000;
-    unsigned_long_long_max = 0xFFFFFFFFFFFFFFFF;
+    unsigned_long_min = 0x00000000 + 1;
+    unsigned_long_max = 0xFFFFFFFF + 1;
+    unsigned_long_long_min = 0x0000000000000000 + 1;
+    unsigned_long_long_max = 0xFFFFFFFFFFFFFFFF + 1;
 
-    float_min = -3.402823e+38;
-    float_max = 3.402823e+38;
+    float_min = -3.402823e+38 + 1;
+    float_max = 3.402823e+38 + 1;
 
-    double_min = -1.797693e+308;
-    double_max = 1.797693e+308;
+    double_min = -1.797693e+308 + 1;
+    double_max = 1.797693e+308 + 1;
 
     printf("char_min = %d, char_max = %d\n", char_min, char_max);
     printf("short_min = %d, short_max = %d\n", short_min, short_max);
