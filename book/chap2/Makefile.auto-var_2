@@ -1,0 +1,9 @@
+PROGRAM = auto-var_2
+OBJS = auto-var_2.o
+SRCS = $(OBJS:%.o=%.c)
+CC = gcc
+CFLAGS = -g -Wall
+LDFLAGS =
+
+$(PROGRAM):$(OBJS)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $(PROGRAM) $(OBJS) $(LDLIBS)
