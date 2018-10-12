@@ -1,1 +1,6 @@
 *.out
+*.dat
+
+book/*
+!book/*.c
+!book/Makefile*
