@@ -13,3 +13,6 @@ book/chap3/*
 book/chap4/*
 !book/chap4/*.c
 !book/chap4/Makefile*
+book/chap5/*
+!book/chap5/*.c
+!book/chap5/Makefile*
