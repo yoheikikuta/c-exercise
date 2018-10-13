@@ -1,6 +1,15 @@
 *.out
 *.dat
 
-book/*
-!book/*.c
-!book/Makefile*
+book/chap1/*
+!book/chap1/*.c
+!book/chap1/Makefile*
+book/chap2/*
+!book/chap2/*.c
+!book/chap2/Makefile*
+book/chap3/*
+!book/chap3/*.c
+!book/chap3/Makefile*
+book/chap4/*
+!book/chap4/*.c
+!book/chap4/Makefile*
