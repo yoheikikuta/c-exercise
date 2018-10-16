@@ -19,3 +19,6 @@ book/chap5/*
 book/chap6/*
 !book/chap6/*.c
 !book/chap6/Makefile*
+book/chap7/*
+!book/chap7/*.c
+!book/chap7/Makefile*
