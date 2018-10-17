@@ -22,3 +22,6 @@ book/chap6/*
 book/chap7/*
 !book/chap7/*.c
 !book/chap7/Makefile*
+book/chap8/*
+!book/chap8/*.c
+!book/chap8/Makefile*
